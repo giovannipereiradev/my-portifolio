@@ -25,8 +25,87 @@
     font-size: 100%;
 } 
 
+/* GENERAL */
+
+body {
+    background-color: var(--dark-gray);
+}
+
+nav { 
+    font-family: var(--fonteDestaque);
+
+    text-align: right;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--dark-gray);
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: var(--light-green);
+    border-radius: 20px;
+}
+
+img {
+    width: 20px;
+}
+
+svg {
+    width: 20px;
+}
+
 /* MOBILE */
 @media only screen and (max-width: 480px) {
+    
+    header svg {
+        color: var(--light-green);
+    }
+
+    header svg#icon {
+        width: 30px;
+    }
+
+    header svg#menu-button {
+        width: 35px;
+    }
+
+    div#header-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 10px;
+    }
+
+    nav div#menu {
+        background-color: var(--lighter-gray);
+
+        padding: 10px;
+    }
+
+    nav div#menu div#buttons {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    nav div#menu div#buttons a {
+        color: var(--light-green);
+        font-family: var(--fonteDestaque);
+        text-decoration: none;
+    }
+
+    nav div#icon {
+        display: none;
+    }
 }
 
 /* SMALL TABLETS */

@@ -6,34 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giovanni Pereira</title>
-    <link rel="shortcut icon" href="../../image/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../../image/dark-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/dark-style.css">
 </head>
 
 <body>
     <header>
+        <div id='header-mobile'>
+            <a href="#">
+                <svg id="icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" version="1.1">
+                    <path d="M9.47388 0H20.4506V5.30548H14L9.47388 0Z" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M18.8076 22.0935C18.8076 28.0584 14.6142 32.8939 9.4413 32.8939C4.26841 32.8939 0.0749512 28.0584 0.0749512 22.0935H4.5C4.5 26.5 6.3826 28 9.4413 28C12.5 28 14.5 26.5 14.5 22.0935H18.8076Z" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.4413 21.6009C14.6142 21.6009 18.8076 16.7653 18.8076 10.8004C18.8076 4.83552 14.6142 0 9.4413 0C4.26841 0 0.0749512 4.83552 0.0749512 10.8004C0.0749512 16.7653 4.26841 21.6009 9.4413 21.6009ZM4.5 10.5C4.5 7 6.3227 5.02706 9.5 5C12.6773 4.97294 14 7 14 10.5C14 14 12.2986 16 9.5 16C6.70139 16 4.5 14 4.5 10.5Z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg id="menu-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="w-6 h-6">
+                    <path id="primary" d="M3,12H21M9,18H21M3,6H15"
+                        style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;" />
+                </svg>
+            </a>
+        </div>
         <nav>
-            <div id="menu">
-                <a href="#">1# <span>Sobre</span></a>
-                <a href="#">2# <span>Experiência</span></a>
-                <a href="#">3# <span>Projetos</span></a>
-                <a href="#">4# <span>Contato</span></a>
-            </div>
-            <div id="theme">
+            <div id="icon">
                 <a href="#">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" version="1.1">
+                        <path d="M9.47388 0H20.4506V5.30548H14L9.47388 0Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M18.8076 22.0935C18.8076 28.0584 14.6142 32.8939 9.4413 32.8939C4.26841 32.8939 0.0749512 28.0584 0.0749512 22.0935H4.5C4.5 26.5 6.3826 28 9.4413 28C12.5 28 14.5 26.5 14.5 22.0935H18.8076Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.4413 21.6009C14.6142 21.6009 18.8076 16.7653 18.8076 10.8004C18.8076 4.83552 14.6142 0 9.4413 0C4.26841 0 0.0749512 4.83552 0.0749512 10.8004C0.0749512 16.7653 4.26841 21.6009 9.4413 21.6009ZM4.5 10.5C4.5 7 6.3227 5.02706 9.5 5C12.6773 4.97294 14 7 14 10.5C14 14 12.2986 16 9.5 16C6.70139 16 4.5 14 4.5 10.5Z" />
                     </svg>
                 </a>
-                <a href="../pt-ligth/index.html">
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-                    </svg>
-                </a>
+            </div>
+            <div id="menu">
+                <div id="buttons">
+                    <a href="#">1# <span>Sobre</span></a>
+                    <a href="#">2# <span>Experiência</span></a>
+                    <a href="#">3# <span>Projetos</span></a>
+                    <a href="#">4# <span>Contato</span></a>
+                </div>
+                <div id="theme">
+                    <a href="#">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                        </svg>
+                    </a>
+                    <a href="../pt-ligth/index.html">
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                        </svg>
+                    </a>
+                </div>
             </div>
         </nav>
         <div id="left-bar" class="bar">
@@ -330,7 +361,9 @@
                     <div class="content">
                         <h2>Nome do Projeto</h2>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iure placeat amet aut reprehenderit quasi quia officiis? Delectus, saepe. Natus culpa delectus necessitatibus iste adipisci enim. Quod eveniet a eaque.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iure placeat amet aut
+                            reprehenderit quasi quia officiis? Delectus, saepe. Natus culpa delectus necessitatibus iste
+                            adipisci enim. Quod eveniet a eaque.
                         </p>
                         <h3>HTML-5 CSS-3</h3>
                     </div>
@@ -376,7 +409,9 @@
                     <div class="content">
                         <h2>Nome do Projeto</h2>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iure placeat amet aut reprehenderit quasi quia officiis? Delectus, saepe. Natus culpa delectus necessitatibus iste adipisci enim. Quod eveniet a eaque.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iure placeat amet aut
+                            reprehenderit quasi quia officiis? Delectus, saepe. Natus culpa delectus necessitatibus iste
+                            adipisci enim. Quod eveniet a eaque.
                         </p>
                         <h3>HTML-5 CSS-3</h3>
                     </div>
@@ -422,7 +457,9 @@
                     <div class="content">
                         <h2>Nome do Projeto</h2>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iure placeat amet aut reprehenderit quasi quia officiis? Delectus, saepe. Natus culpa delectus necessitatibus iste adipisci enim. Quod eveniet a eaque.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iure placeat amet aut
+                            reprehenderit quasi quia officiis? Delectus, saepe. Natus culpa delectus necessitatibus iste
+                            adipisci enim. Quod eveniet a eaque.
                         </p>
                         <h3>HTML-5 CSS-3</h3>
                     </div>
