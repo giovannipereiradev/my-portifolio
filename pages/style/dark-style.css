@@ -150,43 +150,6 @@ div#align-about div#text p a:hover {
     text-decoration: underline;
 }
 
-.block > h3 {
-    font-family: var(--fonteDestaque);
-    color: var(--light-green);
-}
-
-.align-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.align-line > p {
-    font-family: var(--fonteNormal);
-    color: var(--light-gray);
-}
-
-progress {
-    background-color: var(--gray);
-    height: 7px;
-    border-radius: 20px;
-}
-
-progress::-webkit-progress-bar {
-    background-color: var(--gray);
-    border-radius: 20px;
-}
-  
-progress::-webkit-progress-value {
-    background-color: var(--dark-green);
-    border-radius: 20px;
-}
-  
-progress::-moz-progress-bar {
-    background-color: var(--dark-green);
-    border-radius: 20px;
-}
-
 /* MOBILE */
 @media only screen and (max-width: 480px) {
     
@@ -315,6 +278,7 @@ progress::-moz-progress-bar {
         align-items: center;
     }
 
+
     div#align-about div#text {
         margin: 0vw 5vw;
     }
@@ -333,27 +297,6 @@ progress::-moz-progress-bar {
         width: 80vw;
         margin: 5vh 0vh;
         border-radius: 5px;
-    }
-
-    div#align-block {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 5vh;
-    }
-
-    .block {
-        width: 80vw;
-
-        margin: 1vh 0vh;
-    }
-
-    .block > h3 {
-        margin: 1vh 0vh;
-    }
-
-    .align-line {
-        margin-bottom: 0.5vh;
     }
 }
 

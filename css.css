@@ -205,8 +205,6 @@
         text-decoration: underline;
     }
 
-
-    
     div#experience {
         margin-bottom: 100px;
     }
@@ -217,7 +215,7 @@
         align-items: center
     }
 
-    .block > h3 {
+    div.block > h3 {
         margin: 10px 0px;
         font-family: var(--fonteDestaque);
         color: var(--light-green);
@@ -230,13 +228,32 @@
         margin-bottom: 4px;
     }
 
-    .align-line > p {
+    div.align-line > p {
         margin-right: 20px;
         font-family: var(--fonteNormal);
         color: var(--light-gray);
     }
 
-    
+    progress {
+        background-color: var(--gray);
+        height: 7px;
+        border-radius: 20px;
+    }
+
+    progress::-webkit-progress-bar {
+        background-color: var(--gray);
+        border-radius: 20px;
+    }
+      
+    progress::-webkit-progress-value {
+        background-color: var(--dark-green);
+        border-radius: 20px;
+    }
+      
+    progress::-moz-progress-bar {
+        background-color: var(--dark-green);
+        border-radius: 20px;
+    }
 
     svg.github{
         color: var(--gray);
