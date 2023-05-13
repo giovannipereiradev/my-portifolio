@@ -165,31 +165,7 @@
         color: var(--light-green);
     }
 
-    div.title {
-        display: flex;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-
-    div.title > hr {
-        flex: 1;
-        height: 2px;
-        border: none;
-        background-color: var(--gray);
-    }
-
-    div.title > h2{
-        position: relative;
-        color: var(--light-green);
-        font-family: var(--fonteDestaque);
-        font-size: 1.8em;
-        margin-right: 10px;
-    }
-
-    div.title > h2 > span{
-        color: var(--light-gray);
-        font-family: var(--fonteNormal);
-    }
+    
 
     div#align-about {
         display: flex;

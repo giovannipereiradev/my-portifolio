@@ -98,6 +98,58 @@ div#home > div#text > p > strong {
     color: var(--light-green);
 }
 
+div.title {
+    display: flex;
+    align-items: center;
+}
+
+div.title > hr {
+    flex: 1;
+    height: 2px;
+    border: none;
+    background-color: var(--gray);
+}
+
+div.title > h2{
+    position: relative;
+    color: var(--light-green);
+    font-family: var(--fonteDestaque);
+    margin-right: 10px;
+}
+
+div.title > h2 > span{
+    color: var(--light-gray);
+    font-family: var(--fonteNormal);
+}
+
+div#align-about div#text{
+    text-align: justify;
+}
+
+div#align-about div#text  p {
+    font-family: var(--fonteNormal);
+    color: var(--gray);
+
+}
+
+div#align-about div#text  p  span {
+    font-family: var(--fonteDestaque);
+    color: var(--light-green);
+}
+
+div#align-about div#text p strong {
+    color: var(--light-green);
+}
+
+div#align-about div#text p a {
+    color: var(--light-green);
+    text-decoration: none;
+}
+
+div#align-about div#text p a:hover {
+    text-decoration: underline;
+}
+
 /* MOBILE */
 @media only screen and (max-width: 480px) {
     
@@ -190,6 +242,10 @@ div#home > div#text > p > strong {
     nav div#menu div#theme a svg#sun {
         color: var(--light-gray);
     }
+
+    div#home > div#text > p#inicial {
+        text-indent: unset;
+    }
     
     div#home > div#text > h1 {
         font-size: 3em;
@@ -207,10 +263,41 @@ div#home > div#text > p > strong {
         text-indent: 7vw;
     }
 
-    div#home > div#text > p#inicial {
-        text-indent: unset;
+    div.title {
+        margin-bottom: 4vh;
     }
 
+    div.title > h2 {
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
+    div#align-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    div#align-about div#text {
+        margin: 0vw 5vw;
+    }
+
+    div#align-about div#text  p {
+        text-indent: 5vw;
+        font-size: 1em;
+        margin-bottom: 2vh;
+    }
+
+    div#align-about div#text p strong {
+        font-weight: 400;
+    }
+
+    div#align-about img{
+        width: 80vw;
+        margin: 5vh 0vh;
+        border-radius: 5px;
+    }
 }
 
 /* SMALL TABLETS */
