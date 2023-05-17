@@ -93,26 +93,26 @@ div#home > div#text > p > strong {
     color: var(--light-green);
 }
 
-div.title {
+.title {
     display: flex;
     align-items: center;
 }
 
-div.title > hr {
+.title > hr {
     flex: 1;
     height: 2px;
     border: none;
     background-color: var(--gray);
 }
 
-div.title > h2{
+.title > h2{
     position: relative;
     color: var(--light-green);
     font-family: var(--fonteDestaque);
     margin-right: 10px;
 }
 
-div.title > h2 > span{
+.title > h2 > span{
     color: var(--light-gray);
     font-family: var(--fonteNormal);
 }
@@ -249,7 +249,7 @@ progress::-moz-progress-bar {
     height: 360px;
 }
 
-.higthlights .content h2 {
+.higthlights .content h2, .project-grid .content h2 {
     display: block;
     font-family: var(--fonteDestaque);
     color: var(--light-green);
@@ -259,21 +259,21 @@ progress::-moz-progress-bar {
     text-align: end;
 }
 
-.higthlights .content h2:hover {
+.higthlights .content h2:hover, .project-grid .content h2:hover {
     text-decoration: underline;
 }
 
-.higthlights .content p {
+.higthlights .content p, .project-grid .content p{
     font-family: var(--fonteNormal);
     text-align: justify;
     color: var(--gray);
 }
 
-.higthlights .content p strong {
+.higthlights .content p strong, .project-grid .content p strong {
     color: var(--light-green);
 }
 
-.higthlights .content h3 {
+.higthlights .content h3, .project-grid .content h3 {
     font-family: var(--fonteDestaque);
     color: var(--gray);
 }
@@ -296,6 +296,59 @@ progress::-moz-progress-bar {
     align-items: center;
 }
 
+div#other-projects {
+    display: flex;
+    align-items: center;
+}
+
+div#other-projects > hr {
+    flex: 1;
+    height: 2px;
+    border: none;
+    background-color: var(--gray);
+}
+
+div#other-projects > h2{
+    position: relative;
+    color: var(--light-green);
+    font-family: var(--fonteDestaque);
+    margin: 4vh 10px;
+}
+
+div#project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-grid {
+    background-color: var(--lighter-gray);
+    border-radius: 5px;
+    padding: 15px;
+
+    width: 300px;
+    height: 300px;
+
+    margin-bottom: 4vh;
+}
+
+.project-grid header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-grid header a {
+    text-decoration: none;
+}
+
+.project-grid header a svg {
+    color: var(--light-gray);
+}
+
+.project-grid header a:hover svg {
+    color: var(--light-green);
+}
 
 /* MOBILE */
 @media only screen and (max-width: 480px) {
@@ -504,7 +557,7 @@ progress::-moz-progress-bar {
     }
 
     .display-certificate h2 {
-        font-size:1.5em;
+        font-size:1.3em;
         font-weight: 600;
     }
 
@@ -520,6 +573,8 @@ progress::-moz-progress-bar {
     .higthlights {
         margin-bottom: 4vh;
         position: relative; 
+        border-radius: 5px;
+
     }
 
     div#hight-bot::before {
@@ -564,6 +619,33 @@ progress::-moz-progress-bar {
 
     .higthlights .content h3 {
         font-size: 0.9em;
+        font-weight: 400;
+    }
+
+    svg#folder {
+        width: 40px;
+    }
+
+    svg#github, svg#link{
+        width: 20px;
+    }
+
+    .project-grid header {
+        margin-bottom: 3vh;
+    }
+
+    .project-grid .content {
+        height: 26vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .project-grid .content h2 {
+        font-size: 1.1em;
+    }
+
+    .project-grid .content h3 {
         font-weight: 400;
     }
 }
