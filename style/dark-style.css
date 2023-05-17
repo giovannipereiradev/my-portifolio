@@ -182,6 +182,113 @@ progress::-moz-progress-bar {
     border-radius: 20px;
 }
 
+.display-certificate {
+    background-color: var(--lighter-gray);
+    border-radius: 5px;
+    padding: 15px;
+
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.display-certificate h2 {
+    font-family: var(--fonteDestaque);
+    color: var(--light-green);
+}
+.display-certificate p {
+    font-family: var(--fonteNormal);
+    color: var(--light-gray);
+    text-align: justify;
+}
+
+.display-certificate h3 {
+    font-family: var(--fonteDestaque);
+    color: var(--gray);
+}
+
+.display-certificate footer {
+    display: flex;
+    align-items: center;
+}
+
+.display-certificate footer img {
+    width: 25px;
+    margin-right: 1vw;
+}
+
+.display-certificate footer a {
+    font-family: var(--fonteDestaque);
+    color: var(--light-gray);
+    text-decoration: none;
+}
+
+.display-certificate footer a:hover {
+    text-decoration: underline;
+}
+
+.higthlights .content {
+    height: 360px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+    z-index: 20;
+}
+
+.higthlights .background-higthlights {
+    height: 360px;
+}
+
+.higthlights .content h2 {
+    display: block;
+    font-family: var(--fonteDestaque);
+    color: var(--light-green);
+}
+
+.higthlights .content h2:hover {
+    text-decoration: underline;
+}
+
+.higthlights .content p {
+    font-family: var(--fonteNormal);
+    text-align: justify;
+    color: var(--gray);
+}
+
+.higthlights .content p strong {
+    color: var(--light-green);
+}
+
+.higthlights .content h3 {
+    font-family: var(--fonteDestaque);
+    color: var(--gray);
+}
+
+.higthlights .content a {
+    text-decoration: none;
+}
+
+.higthlights .content a svg {
+    color: var(--gray);
+}
+
+.higthlights .content a:hover svg {
+    color: var(--light-green);
+}
+
+.higthlights .content .align-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 /* MOBILE */
 @media only screen and (max-width: 480px) {
     
@@ -219,13 +326,16 @@ progress::-moz-progress-bar {
         padding: 20px;
 
         height: 85vh;
-        width: 70vw;
-        margin-left: 30vw;
+        width: 55vw;
+        margin-left: 45vw;
 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         border-radius: 10px 0px 0px 10px;
+
+        position: fixed;
+        z-index: 10;
     }
 
     nav div#menu div#buttons {
@@ -374,6 +484,66 @@ progress::-moz-progress-bar {
     .align-line {
         margin-bottom: 0.5vh;
     }
+
+    .grid-certificates{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .display-certificate {
+        margin-bottom: 4vh;
+    }
+
+    .display-certificate h2 {
+        font-size:1.5em;
+        font-weight: 600;
+    }
+
+    .display-certificate h3 {
+        font-weight: 400;
+    }
+
+    .align-line-certificate {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .higthlights {
+        margin-bottom: 4vh;
+    }
+
+    div#hight-bot {
+        background-image: url('../image/port-discord.png');
+        background-position: center;
+        border-radius: 5px;
+        opacity: 20%;
+    }
+
+    div#hight-cbc {
+        background-image: url('../image/port-discord.png');
+        background-position: center;
+        border-radius: 5px;
+        opacity: 20%;
+    }
+
+    .higthlights .content {
+        padding: 4vw;
+    }
+
+    .higthlights  h2 {
+        font-size: 1.2em;
+    }
+
+    .higthlights .content p {
+        font-size: 0.9em;
+    }
+
+    .higthlights .content h3 {
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+
 }
 
 /* SMALL TABLETS */
