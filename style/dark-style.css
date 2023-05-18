@@ -593,7 +593,7 @@ div#project {
 
     div#hight-cbc::before {
         content: '';
-        background-image: url('../image/port-discord.png');
+        background-image: url('../image/port-cbc.png');
         background-position: center;
         border-radius: 5px;
         background-size: cover;
@@ -602,7 +602,7 @@ div#project {
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 10%;
+        opacity: 5%;
     }
 
     .higthlights .content {
@@ -647,6 +647,90 @@ div#project {
 
     .project-grid .content h3 {
         font-weight: 400;
+    }
+
+    div#social-buttons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icon {
+        display: grid;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        outline: 2px solid var(--light-gray);
+        transition-duration: 0.3s;
+    }
+
+    div#github:hover {
+        outline-offset: 4px;
+        background-image: linear-gradient(to bottom, #8f32ad, #4b1a5b);
+    }
+
+    div#linkedin:hover {
+        outline-offset: 4px;
+        background-image: linear-gradient(to bottom, #0B66C2, #094077);
+    }
+
+    div#codepen:hover {
+        outline-offset: 4px;
+        background-image: linear-gradient(to bottom, #5CAF6B, #3b7045);
+    }
+
+    div#email:hover {
+        outline-offset: 4px;
+        background-image: linear-gradient(to bottom, #C80003, #710002);
+    }
+
+    div#cc-button:hover {
+        outline-offset: 4px;
+        background-image: linear-gradient(to bottom, #3e9a85, #204a41);
+    }
+
+    .icon a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .icon svg {
+        width: 25px;
+        color: var(--light-gray);
+    }
+
+    div#download-cc {
+        display: flex;
+        align-items: center;
+    }
+    
+    div#download-cc > hr {
+        flex: 1;
+        height: 2px;
+        border: none;
+        background-color: var(--gray);
+    }
+    
+    div#download-cc > h2{
+        position: relative;
+        color: var(--light-green);
+        font-family: var(--fonteDestaque);
+        margin: 4vh 10px;
+    }
+
+    div#cc-button {
+        margin: auto;
+        margin-bottom: 8vh;
+    }
+
+    footer {
+        font-family: var(--fonteDestaque);
+        font-weight: 200;
+        font-size: 0.8em;
+        color: var(--light-gray);
+        text-align: center;
     }
 }
 
