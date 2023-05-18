@@ -725,12 +725,25 @@ div#project {
         margin-bottom: 8vh;
     }
 
-    footer {
+    footer#end {
+        height: 174px;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+
+        background-image: url('../image/footer-mobile.png');
+        background-position: bottom center;
+    }
+
+    footer#end p {
         font-family: var(--fonteDestaque);
-        font-weight: 200;
+        font-weight: 300;
         font-size: 0.8em;
-        color: var(--light-gray);
-        text-align: center;
+        color: var(--dark-gray);
+
+        padding: 2px;
     }
 }
 
