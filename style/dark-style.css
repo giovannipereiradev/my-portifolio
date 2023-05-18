@@ -764,9 +764,9 @@ div#project {
 
     footer#end p {
         font-family: var(--fonteDestaque);
-        font-weight: 300;
+        font-weight: 500;
         font-size: 0.8em;
-        color: var(--dark-gray);
+        color: var(--light-gray);
 
         padding: 2px;
     }
