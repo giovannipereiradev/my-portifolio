@@ -462,9 +462,29 @@ div#project {
         color: var(--light-green);
     }
 
-    nav div#menu footer div#menu-translate {
-        display: block;
-        background-color: rebeccapurple;
+    nav div#menu footer div#menuTranslate {
+        margin-bottom: 2vw;
+        margin-left: 25vw;
+        display: none;
+    }
+
+    nav div#menu footer div#menuTranslate a {
+        text-decoration: none;
+        font-family: var(--fonteDestaque);
+        color: var(--light-gray);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav div#menu footer div#menuTranslate a#pt-br {
+        color: var(--light-green);
+        text-decoration: underline;
+    }
+
+    nav div#menu footer div#menuTranslate a img {
+        width: 15px;
+        margin-right: 1vw;
     }
 
     main {

@@ -7,3 +7,11 @@ function clickMenu() {
         body.style.overflow = 'hidden'
     }
 }
+
+function clickMenuTranslate() {
+    if (menuTranslate.style.display == 'block') {
+        menuTranslate.style.display = 'none'
+    } else {
+        menuTranslate.style.display = 'block'
+    }
+}
