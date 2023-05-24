@@ -649,7 +649,7 @@ div#cc-button:hover {
 
     div#hight-bot::before {
         content: '';
-        background-image: url('../svg/footer-mobile.svg');
+        background-image: url('../image/port-discord.png');
         background-position: center;
         border-radius: 5px;
         background-size: cover;
@@ -758,7 +758,7 @@ div#cc-button:hover {
         justify-content: center;
 
 
-        background-image: url('../image/footer-mobile.png');
+        background-image: url('../svg/footer-mobile.svg');
         background-position: bottom center;
     }
 
