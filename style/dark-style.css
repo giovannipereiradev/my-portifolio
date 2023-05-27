@@ -314,7 +314,7 @@ div#other-projects > h2{
     position: relative;
     color: var(--light-green);
     font-family: var(--fonteDestaque);
-    margin: 4vh 10px;
+    margin: 4dvh 10px;
 }
 
 div#project {
@@ -331,7 +331,7 @@ div#project {
     width: 300px;
     height: 300px;
 
-    margin-bottom: 4vh;
+    margin-bottom: 4dvh;
 }
 
 .project-grid header {
@@ -435,7 +435,7 @@ div#cc-button:hover {
 
         padding: 20px;
 
-        height: 85vh;
+        height: 85dvh;
         width: 55vw;
         margin-left: 45vw;
 
@@ -524,7 +524,7 @@ div#cc-button:hover {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        margin-bottom: 1vh;
+        margin-bottom: 1dvh;
     }
 
     nav div#menu footer div#menuTranslate a#pt-br {
@@ -538,7 +538,7 @@ div#cc-button:hover {
     }
 
     div#home {
-        margin: 30vh 0vh
+        margin: 30dvh 0dvh
     }
 
     div#home > div#text > p#inicial {
@@ -552,7 +552,7 @@ div#cc-button:hover {
     div#home > div#text > h2 {
         font-size: 2em;
         font-weight: 500;
-        margin-bottom: 3vh;
+        margin-bottom: 3dvh;
     }
     
     div#home > div#text > p {
@@ -562,7 +562,7 @@ div#cc-button:hover {
     }
 
     div.title {
-        margin-bottom: 4vh;
+        margin-bottom: 4dvh;
     }
 
     div.title > h2 {
@@ -583,7 +583,7 @@ div#cc-button:hover {
     div#align-about div#text  p {
         text-indent: 5vw;
         font-size: 1em;
-        margin-bottom: 2vh;
+        margin-bottom: 2dvh;
     }
 
     div#align-about div#text p strong {
@@ -592,7 +592,7 @@ div#cc-button:hover {
 
     div#align-about img{
         width: 80vw;
-        margin: 5vh 0vh;
+        margin: 5dvh 0dvh;
         border-radius: 5px;
     }
 
@@ -600,21 +600,21 @@ div#cc-button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 5vh;
+        margin-bottom: 5dvh;
     }
 
     .block {
         width: 80vw;
 
-        margin: 1vh 0vh;
+        margin: 1dvh 0dvh;
     }
 
     .block > h3 {
-        margin: 1vh 0vh;
+        margin: 1dvh 0dvh;
     }
 
     .align-line {
-        margin-bottom: 0.5vh;
+        margin-bottom: 0.5dvh;
     }
 
     .grid-certificates{
@@ -624,7 +624,7 @@ div#cc-button:hover {
     }
 
     .display-certificate {
-        margin-bottom: 4vh;
+        margin-bottom: 4dvh;
     }
 
     .display-certificate h2 {
@@ -642,7 +642,7 @@ div#cc-button:hover {
     }
 
     .higthlights {
-        margin-bottom: 4vh;
+        margin-bottom: 4dvh;
         position: relative; 
         border-radius: 5px;
 
@@ -702,7 +702,7 @@ div#cc-button:hover {
     }
 
     .project-grid header {
-        margin-bottom: 3vh;
+        margin-bottom: 3dvh;
     }
 
     .project-grid .content {
@@ -718,7 +718,7 @@ div#cc-button:hover {
 
     .project-grid .content p, .project-grid .content h3 {
         font-weight: 400;
-        margin-top: 2vh;
+        margin-top: 2dvh;
     }
 
     div#social-buttons {
@@ -743,12 +743,12 @@ div#cc-button:hover {
         position: relative;
         color: var(--light-green);
         font-family: var(--fonteDestaque);
-        margin: 4vh 10px;
+        margin: 4dvh 10px;
     }
 
     div#cc-button {
         margin: auto;
-        margin-bottom: 4vh;
+        margin-bottom: 4dvh;
     }
 
     footer#end {
@@ -809,7 +809,7 @@ div#cc-button:hover {
 
         padding: 20px;
 
-        height: 85vh;
+        height: 85dvh;
         width: 55vw;
         margin-left: 45vw;
 
@@ -899,7 +899,7 @@ div#cc-button:hover {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        margin-bottom: 1vh;
+        margin-bottom: 1dvh;
     }
 
     nav div#menu footer div#menuTranslate a#pt-br {
@@ -916,7 +916,7 @@ div#cc-button:hover {
         display: flex;
         flex-direction: column;
 
-        margin: 34vh 0vw;
+        margin: 34dvh 0vw;
     }
 
     div#home div#text p#inicial {
@@ -929,7 +929,7 @@ div#cc-button:hover {
 
     div#home div#text h2 {
         font-size: 2.8em;
-        margin-bottom: 2vh;
+        margin-bottom: 2dvh;
     }
 
     div#home div#text p {
@@ -940,7 +940,7 @@ div#cc-button:hover {
 
     .title {
         font-size: 1.5em;
-        margin: 4vh 0vw;
+        margin: 4dvh 0vw;
     }
 
     div#about-me div#align-about {
@@ -951,25 +951,25 @@ div#cc-button:hover {
 
     div#about-me div#text {
         font-size: 1.2em;
-        margin: 0vh 5vw;
+        margin: 0dvh 5vw;
         text-indent: 5vw;
     }
 
     div#about-me img {
         width: 45vw;
         border-radius: 5px;
-        margin-top: 4vh;
+        margin-top: 4dvh;
     }
 
     .block {
         width: 370px;
         margin: auto;
-        margin-bottom: 4vh;
+        margin-bottom: 4dvh;
     }
 
     .block h3, .block p {
         font-size: 1.4em;
-        margin-bottom: 0.5vh;
+        margin-bottom: 0.5dvh;
     }
 
     .grid-certificates{
@@ -979,7 +979,7 @@ div#cc-button:hover {
     }
 
     .display-certificate {
-        margin-bottom: 4vh;
+        margin-bottom: 4dvh;
         width: 80vw;
     }
 
@@ -999,7 +999,7 @@ div#cc-button:hover {
     }
 
     .higthlights {
-        margin-bottom: 4vh;
+        margin-bottom: 4dvh;
         position: relative; 
         border-radius: 5px;
     }
@@ -1079,7 +1079,7 @@ div#cc-button:hover {
     }
 
     .project-grid header {
-        margin-bottom: 2vh;
+        margin-bottom: 2dvh;
     }
 
 
@@ -1097,7 +1097,7 @@ div#cc-button:hover {
     .project-grid .content p, .project-grid .content h3 {
         font-weight: 400;
         font-size: 1.1em;
-        margin-top: 2vh;
+        margin-top: 2dvh;
     }
 
     .icon {
@@ -1132,12 +1132,12 @@ div#cc-button:hover {
         color: var(--light-green);
         font-size: 1.4em;
         font-family: var(--fonteDestaque);
-        margin: 4vh 10px;
+        margin: 4dvh 10px;
     }
 
     div#cc-button {
         margin: auto;
-        margin-bottom: 4vh;
+        margin-bottom: 4dvh;
     }
 
     footer#end {
@@ -1162,7 +1162,389 @@ div#cc-button:hover {
 
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    header svg {
+        color: var(--light-green);
+    }
+
+    header svg#icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    header svg#menu-button {
+        width: 50px;
+    }
+
+    div#header-mobile {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: none;
+        flex-wrap: nowrap;
+    }
+
+    nav div#icon,.bar {
+        display: none;
+    }
+
+    nav div#menu {
+        background-color: var(--lighter-gray);
+
+        padding: 20px;
+
+        height: 85dvh;
+        width: 55vw;
+        margin-left: 45vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px 0px 0px 10px;
+
+        position: fixed;
+        z-index: 10;
+    }
+
+    nav div#menu div#buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav div#menu div#buttons a {
+        color: var(--light-green);
+        font-family: var(--fonteDestaque);
+        font-size: 1.4em;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    nav div#menu div#buttons a:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--light-gray);
+    }
+
+    nav div#menu div#buttons a span {
+        color: var(--light-gray);
+    }
+
+    nav div#menu footer div#menu-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav div#menu footer div#menu-footer div#theme {
+        display: flex;
+    }
+
+    nav div#menu footer div#menu-footer div#theme a {
+        text-decoration: none;
+        margin: 0px 5px;
+        display: flex;
+    }
+
+    nav div#menu footer div#menu-footer div#theme a svg#moon {
+        color: var(--light-green);
+        width: 35px;
+    }
+
+    nav div#menu footer div#menu-footer div#theme a svg#sun {
+        color: var(--light-gray);
+        width: 35px;
+    }
+
+    nav div#menu footer div#menu-footer div#translate a {
+        text-decoration: none;
+        display: flex;
+    }
+
+    nav div#menu footer div#menu-footer div#translate a svg#translate {
+        color: var(--light-gray);
+        width: 35px;
+    }
+
+    nav div#menu footer div#menu-footer div#translate a:hover svg#translate {
+        color: var(--light-green);
+    }
+
+    nav div#menu footer div#menuTranslate {
+        margin-bottom: 2vw;
+        margin-left: 25vw;
+        display: none;
+    }
+
+    nav div#menu footer div#menuTranslate a {
+        text-decoration: none;
+        font-family: var(--fonteDestaque);
+        font-size: 1.4em;
+        color: var(--light-gray);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 1dvh;
+    }
+
+    nav div#menu footer div#menuTranslate a#pt-br {
+        color: var(--light-green);
+        text-decoration: underline;
+    }
+
+    nav div#menu footer div#menuTranslate a img {
+        width: 20px;
+        margin-right: 1vw;
+    }
+
+    div#home {
+        display: flex;
+        flex-direction: column;
+
+        margin: 34dvh 0vw;
+    }
+
+    div#home div#text p#inicial {
+        font-size: 1.5em;
+    }
+
+    div#home div#text h1 {
+        font-size: 4em;
+    }
+
+    div#home div#text h2 {
+        font-size: 2.8em;
+        margin-bottom: 2dvh;
+    }
+
+    div#home div#text p {
+        font-size: 1.4em;
+        width: 70vw;
+        text-align: justify;
+    }
+
+    .title {
+        font-size: 1.5em;
+        margin: 4dvh 0vw;
+    }
+
+    div#about-me div#align-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#about-me div#text {
+        font-size: 1.2em;
+        margin: 0dvh 5vw;
+        text-indent: 5vw;
+    }
+
+    div#about-me img {
+        width: 45vw;
+        border-radius: 5px;
+        margin-top: 4dvh;
+    }
+
+    .block {
+        width: 370px;
+        margin: auto;
+        margin-bottom: 4dvh;
+    }
+
+    .block h3, .block p {
+        font-size: 1.4em;
+        margin-bottom: 0.5dvh;
+    }
+
+    .grid-certificates{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .display-certificate {
+        margin-bottom: 4dvh;
+        width: 80vw;
+    }
+
+    .display-certificate h2 {
+        font-size:1.6em;
+        font-weight: 600;
+    }
+
+    .display-certificate p, .display-certificate h3 {
+        font-weight: 400;
+        font-size: 1.2em;
+    }
+
+    .align-line-certificate {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .higthlights {
+        margin-bottom: 4dvh;
+        position: relative; 
+        border-radius: 5px;
+    }
+
+    div#hight-bot::before {
+        content: '';
+        background-image: url('../image/port-discord.png');
+        background-position: center;
+        border-radius: 5px;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 10%;
+    }
+
+    div#hight-cbc::before {
+        content: '';
+        background-image: url('../image/port-cbc.png');
+        background-position: center;
+        border-radius: 5px;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 5%;
+    }
+
+    .higthlights .content {
+        padding: 4vw;
+    }
+
+    .higthlights .content h2 {
+        font-size: 1.5em;
+    }
+
+    .higthlights .content p {
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+    .higthlights .content h3 {
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    .higthlights svg {
+        width: 30px;
+    }
+
+    svg#folder {
+        width: 50px;
+    }
+
+    svg#github, svg#link{
+        width: 25px;
+    }
+
+    div#other-projects {
+        font-size: 1.4em;
+    }
+
+    div#project {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .project-grid {
+        height: fit-content;
+        width: 40vw;
+    }
+
+    .project-grid header {
+        margin-bottom: 2dvh;
+    }
+
+
+    .project-grid .content {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .project-grid .content h2 {
+        font-size: 1.4em;
+    }
+
+    .project-grid .content p, .project-grid .content h3 {
+        font-weight: 400;
+        font-size: 1.1em;
+        margin-top: 2dvh;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon svg {
+        width: 30px;
+    }
+
+    div#social-buttons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    div#download-cc {
+        display: flex;
+        align-items: center;
+    }
     
+    div#download-cc > hr {
+        flex: 1;
+        height: 2px;
+        border: none;
+        background-color: var(--gray);
+    }
+    
+    div#download-cc > h2{
+        position: relative;
+        color: var(--light-green);
+        font-size: 1.4em;
+        font-family: var(--fonteDestaque);
+        margin: 4dvh 10px;
+    }
+
+    div#cc-button {
+        margin: auto;
+        margin-bottom: 4dvh;
+    }
+
+    footer#end {
+        height: 245px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+
+        background-image: url('../svg/footer-small-tablet.svg');
+        background-position: bottom center;
+    }
+
+    footer#end p {
+        font-family: var(--fonteDestaque);
+        font-weight: 500;
+        color: var(--light-gray);
+
+        padding: 2px;
+    }
 }
 
 /* DESKTOP */
