@@ -1352,7 +1352,6 @@ div#cc-button:hover {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        justify-content: center;
     }
 
     .block {
