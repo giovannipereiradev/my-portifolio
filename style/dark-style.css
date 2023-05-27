@@ -1348,10 +1348,15 @@ div#cc-button:hover {
         margin-top: 4dvh;
     }
 
+    .align-block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
     .block {
         width: 370px;
-        margin: auto;
-        margin-bottom: 4dvh;
     }
 
     .block h3, .block p {
@@ -1361,13 +1366,14 @@ div#cc-button:hover {
 
     .grid-certificates{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .display-certificate {
-        margin-bottom: 4dvh;
-        width: 80vw;
+        width: 40vw;
+        height: 30dvh;
     }
 
     .display-certificate h2 {
@@ -1389,6 +1395,7 @@ div#cc-button:hover {
         margin-bottom: 4dvh;
         position: relative; 
         border-radius: 5px;
+        height: 450px;
     }
 
     div#hight-bot::before {
@@ -1421,6 +1428,7 @@ div#cc-button:hover {
 
     .higthlights .content {
         padding: 4vw;
+        height: 450px;
     }
 
     .higthlights .content h2 {
@@ -1488,12 +1496,12 @@ div#cc-button:hover {
     }
 
     .icon {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
 
     .icon svg {
-        width: 30px;
+        width: 40px;
     }
 
     div#social-buttons {
@@ -1528,13 +1536,13 @@ div#cc-button:hover {
     }
 
     footer#end {
-        height: 245px;
+        height: 260px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
 
 
-        background-image: url('../svg/footer-small-tablet.svg');
+        background-image: url('../svg/footer-tablet.svg');
         background-position: bottom center;
     }
 
