@@ -426,7 +426,7 @@ div#cc-button:hover {
         flex-wrap: nowrap;
     }
 
-    nav div#icon,.bar {
+    nav svg#icon,.bar {
         display: none;
     }
 
@@ -800,7 +800,7 @@ div#cc-button:hover {
         flex-wrap: nowrap;
     }
 
-    nav div#icon,.bar {
+    nav svg#icon,.bar {
         display: none;
     }
 
@@ -1187,7 +1187,7 @@ div#cc-button:hover {
         flex-wrap: nowrap;
     }
 
-    nav div#icon,.bar {
+    nav svg#icon,.bar {
         display: none;
     }
 
