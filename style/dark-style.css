@@ -60,8 +60,7 @@ main {
     min-width: 280px;
     max-width: 800px;
     margin: auto;
-
-    margin: 0vw 3vw;
+    padding: 0vh 3vw;
 }
 
 div#home > div#text > p#inicial {
@@ -1348,7 +1347,7 @@ div#cc-button:hover {
         margin-top: 4dvh;
     }
 
-    .align-block {
+    div#align-block {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
@@ -1388,6 +1387,10 @@ div#cc-button:hover {
     .align-line-certificate {
         display: flex;
         justify-content: space-between;
+    }
+
+    div#more-certificates {
+        display: none;
     }
 
     .higthlights {
@@ -1556,6 +1559,8 @@ div#cc-button:hover {
 
 /* DESKTOP */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
 }
 
 /* LARGE SCREEN */
