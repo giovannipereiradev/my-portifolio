@@ -23,3 +23,11 @@ function clickMenuTranslate() {
         menuTranslate.style.display = 'block'
     }
 }
+
+function clickMenuDesktop() {
+    if (subMenu.style.display == 'flex') {
+        subMenu.style.display = 'none'
+    } else {
+        subMenu.style.display = 'flex'
+    }
+}

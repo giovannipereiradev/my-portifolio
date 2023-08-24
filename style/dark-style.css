@@ -430,9 +430,7 @@ div#cc-button:hover {
         flex-wrap: nowrap;
     }
 
-    nav svg#icon,.bar {
-        display: none;
-    }
+    nav svg#icon,
 
     nav div#menu-mobile {
         background-color: var(--lighter-gray);
@@ -808,9 +806,7 @@ div#cc-button:hover {
         flex-wrap: nowrap;
     }
 
-    nav svg#icon,.bar {
-        display: none;
-    }
+    nav svg#icon,
 
     nav div#menu-mobile {
         background-color: var(--lighter-gray);
@@ -1199,9 +1195,7 @@ div#cc-button:hover {
         flex-wrap: nowrap;
     }
 
-    nav svg#icon,.bar {
-        display: none;
-    }
+    nav svg#icon,
 
     nav div#menu-mobile {
         background-color: var(--lighter-gray);
@@ -1577,8 +1571,82 @@ div#cc-button:hover {
         max-width: 1000px;
     }
 
-    .bar {
+    #menu-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 12px;
+        margin-bottom: 0px;
+    }
+
+    #menu-desktop svg {
+        color: var(--light-green);
+    }
+
+    #menu-desktop svg#icon {
+        width: 30px;
+        height: auto;
+    }
+
+    #menu-desktop  div#buttons a {
+        color: var(--light-green);
+        font-family: var(--fonteDestaque);
+        font-size: 1.2em;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    #menu-desktop  div#buttons a:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--light-gray);
+    }
+
+    #menu-desktop  div#buttons a span {
+        color: var(--light-gray);
+    }
+
+    #subMenu {
         display: none;
+        flex-direction: column;
+        background-color: var(--lighter-gray);
+        border-radius: 10px;
+        padding: 20px;
+        align-items: flex-end;
+
+        position: absolute;
+        z-index: 10;
+        right: 7px;
+    }
+    
+    #subMenu a {
+        text-decoration: none;
+        color: var(--light-gray);
+        margin-bottom: 10px;
+    }
+
+    #subMenu a img {
+        margin-right: 10px;
+    }
+
+    #pt-br, #us {
+        display: flex;
+    }
+
+    
+    #sun, #moon {
+        width: auto;
+        height: 25px;
+        margin: 3px;
+    }
+
+    #subMenu #pt-br {
+        text-decoration: underline;
+        color: var(--light-green);
+    }
+
+    #moon {
+        color: var(--light-green);
     }
 
     #header-mobile, #menu-mobile {
@@ -1860,8 +1928,87 @@ div#cc-button:hover {
         max-width: 1600px;
     }
 
-    .bar {
+    #menu-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+        margin-bottom: 0px;
+    }
+
+    #menu-desktop svg {
+        color: var(--light-green);
+    }
+
+    #menu-desktop svg#icon {
+        width: 35px;
+        height: auto;
+    }
+
+    #menu-desktop  div#buttons a {
+        color: var(--light-green);
+        font-family: var(--fonteDestaque);
+        font-size: 1.4em;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    #menu-desktop  div#buttons a:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--light-gray);
+    }
+
+    #menu-desktop  div#buttons a span {
+        color: var(--light-gray);
+    }
+
+    #arrow svg{
+        height: auto;
+        width: 25px;
+    }
+
+    #subMenu {
         display: none;
+        flex-direction: column;
+        background-color: var(--lighter-gray);
+        border-radius: 10px;
+        padding: 20px;
+        align-items: flex-end;
+
+        position: absolute;
+        z-index: 10;
+        right: 7px;
+    }
+    
+    #subMenu a {
+        text-decoration: none;
+        color: var(--light-gray);
+        margin-bottom: 10px;
+    }
+
+    #subMenu a img {
+        margin-right: 10px;
+    }
+
+    #pt-br, #us {
+        display: flex;
+    }
+
+    
+    #sun, #moon {
+        width: auto;
+        height: 25px;
+        margin: 3px;
+    }
+
+    #subMenu #pt-br {
+        text-decoration: underline;
+        color: var(--light-green);
+    }
+
+    #moon {
+        color: var(--light-green);
     }
 
     #header-mobile, #menu-mobile {
@@ -1901,17 +2048,17 @@ div#cc-button:hover {
     div#about-me div#align-about {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     div#about-me div#text {
-        font-size: 1.2em;
-        width: 45%;
+        font-size: 1.4em;
+        width: 50%;
         text-indent: 5vw;
     }
 
     div#about-me img {
-        width: 35vw;
+        width: 25vw;
         border-radius: 5px;
     }
 
@@ -1922,7 +2069,7 @@ div#cc-button:hover {
     }
 
     .block {
-        width: 370px;
+        width: 368px;
         padding: 20px;
     }
 
@@ -1938,7 +2085,7 @@ div#cc-button:hover {
     }
 
     .display-certificate {
-        width: 35vw;
+        width: 20vw;
         height: 40dvh;
         margin: 22px;
     }
@@ -1981,9 +2128,9 @@ div#cc-button:hover {
         top: 0px;
         right: 0px;
         bottom: 0px;
-        left: 103px;
+        left: 287px;
         opacity: 10%;
-        width: 78%;
+        width: 60%;
     }
 
     div#hight-cbc::before {
@@ -1996,15 +2143,15 @@ div#cc-button:hover {
         top: 0px;
         right: 0px;
         bottom: 0px;
-        left: 103px;
+        left: 287px;
         opacity: 5%;
-        width: 78%;
+        width: 60%;
     }
 
     .higthlights .content {
         padding: 4vw;
         height: 450px;
-        width: 78%;
+        width: 60%;
 
     }
 
@@ -2047,7 +2194,7 @@ div#cc-button:hover {
 
     .project-grid {
         height: fit-content;
-        width: 35vw;
+        width: 20vw;
         margin: 2dvh;
     }
 
