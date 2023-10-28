@@ -344,7 +344,11 @@ div#project {
     text-decoration: none;
 }
 
-.project-grid header a svg, .project-grid header svg {
+.project-grid header a svg {
+    color: var(--light-gray);
+}
+
+.project-grid header svg {
     color: var(--light-gray);
 }
 
