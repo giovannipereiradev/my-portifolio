@@ -454,6 +454,10 @@ div#cc-button:hover {
         z-index: 10;
     }
 
+    nav div#menu-mobile svg#icon, div#subMenu {
+        display: none;
+    }
+
     nav div#menu-mobile div#buttons {
         display: flex;
         flex-direction: column;
@@ -828,6 +832,10 @@ div#cc-button:hover {
 
         position: fixed;
         z-index: 10;
+    }
+
+    nav div#menu-mobile svg#icon, div#subMenu {
+        display: none;
     }
 
     nav div#menu-mobile div#buttons {
@@ -1217,6 +1225,10 @@ div#cc-button:hover {
 
         position: fixed;
         z-index: 10;
+    }
+
+    nav div#menu-mobile svg#icon, div#subMenu {
+        display: none;
     }
 
     nav div#menu-mobile div#buttons {
@@ -1611,7 +1623,7 @@ div#cc-button:hover {
     }
 
     #subMenu {
-        display: none;
+        display: flex;
         flex-direction: column;
         background-color: var(--lighter-gray);
         border-radius: 10px;
