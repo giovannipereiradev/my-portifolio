@@ -1,0 +1,22 @@
+{
+  "name": "my-portifolio",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao meu portfólio! Este é um espaço onde eu apresento meu trabalho como desenvolvedor web e mostro minha paixão por criar interfaces digitais envolventes e funcionais. Minha landing page é projetada de forma simples e responsiva, garantindo uma experiência perfeita em diferentes dispositivos.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannipereiradev/my-portifolio.git"
+  },
+  "author": "giovannipereiradev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovannipereiradev/my-portifolio/issues"
+  },
+  "homepage": "https://github.com/giovannipereiradev/my-portifolio#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
