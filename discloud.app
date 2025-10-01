@@ -1,0 +1,6 @@
+ID=myportfolio.discloud.app
+TYPE=site
+MAIN=app.js
+NAME=my-portfolio
+RAM=512
+AUTORESTART=true
